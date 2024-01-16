@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  dinesmart
-//
-//  Created by Mohammed Al-Dahleh on 2024-01-15.
-//
-
 import SwiftUI
 import SwiftData
 

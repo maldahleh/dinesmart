@@ -1,10 +1,3 @@
-//
-//  dinesmartUITests.swift
-//  dinesmartUITests
-//
-//  Created by Mohammed Al-Dahleh on 2024-01-15.
-//
-
 import XCTest
 
 final class dinesmartUITests: XCTestCase {
