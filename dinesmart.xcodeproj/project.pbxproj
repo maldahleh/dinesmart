@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4AE682202B5634C500B67E77 /* dinesmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6821F2B5634C500B67E77 /* dinesmartApp.swift */; };
 		4AE682222B5634C500B67E77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE682212B5634C500B67E77 /* ContentView.swift */; };
-		4AE682242B5634C500B67E77 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE682232B5634C500B67E77 /* Item.swift */; };
 		4AE682262B5634C700B67E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE682252B5634C700B67E77 /* Assets.xcassets */; };
 		4AE682292B5634C700B67E77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE682282B5634C700B67E77 /* Preview Assets.xcassets */; };
 		4AE682352B5634C700B67E77 /* dinesmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE682342B5634C700B67E77 /* dinesmartTests.swift */; };
 		4AE6823F2B5634C700B67E77 /* dinesmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6823E2B5634C700B67E77 /* dinesmartUITests.swift */; };
 		4AE682412B5634C700B67E77 /* dinesmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE682402B5634C700B67E77 /* dinesmartUITestsLaunchTests.swift */; };
+		4AFD20DB2B57083600539F5B /* Coords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD20DA2B57083600539F5B /* Coords.swift */; };
+		4AFD20DD2B57087100539F5B /* Infraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD20DC2B57087100539F5B /* Infraction.swift */; };
+		4AFD20DF2B5708A100539F5B /* Inspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD20DE2B5708A100539F5B /* Inspection.swift */; };
+		4AFD20E12B570D4D00539F5B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD20E02B570D4D00539F5B /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		4AE6821C2B5634C500B67E77 /* dinesmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dinesmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE6821F2B5634C500B67E77 /* dinesmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinesmartApp.swift; sourceTree = "<group>"; };
 		4AE682212B5634C500B67E77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4AE682232B5634C500B67E77 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4AE682252B5634C700B67E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE682282B5634C700B67E77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AE6822A2B5634C700B67E77 /* dinesmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dinesmart.entitlements; sourceTree = "<group>"; };
@@ -48,6 +50,10 @@
 		4AE6823A2B5634C700B67E77 /* dinesmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dinesmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE6823E2B5634C700B67E77 /* dinesmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinesmartUITests.swift; sourceTree = "<group>"; };
 		4AE682402B5634C700B67E77 /* dinesmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dinesmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AFD20DA2B57083600539F5B /* Coords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coords.swift; sourceTree = "<group>"; };
+		4AFD20DC2B57087100539F5B /* Infraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infraction.swift; sourceTree = "<group>"; };
+		4AFD20DE2B5708A100539F5B /* Inspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspection.swift; sourceTree = "<group>"; };
+		4AFD20E02B570D4D00539F5B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +104,9 @@
 		4AE6821E2B5634C500B67E77 /* dinesmart */ = {
 			isa = PBXGroup;
 			children = (
+				4AFD20D92B57082600539F5B /* Models */,
 				4AE6821F2B5634C500B67E77 /* dinesmartApp.swift */,
 				4AE682212B5634C500B67E77 /* ContentView.swift */,
-				4AE682232B5634C500B67E77 /* Item.swift */,
 				4AE682252B5634C700B67E77 /* Assets.xcassets */,
 				4AE6822A2B5634C700B67E77 /* dinesmart.entitlements */,
 				4AE6822B2B5634C700B67E77 /* Info.plist */,
@@ -132,6 +138,17 @@
 				4AE682402B5634C700B67E77 /* dinesmartUITestsLaunchTests.swift */,
 			);
 			path = dinesmartUITests;
+			sourceTree = "<group>";
+		};
+		4AFD20D92B57082600539F5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD20DA2B57083600539F5B /* Coords.swift */,
+				4AFD20DC2B57087100539F5B /* Infraction.swift */,
+				4AFD20DE2B5708A100539F5B /* Inspection.swift */,
+				4AFD20E02B570D4D00539F5B /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AE682222B5634C500B67E77 /* ContentView.swift in Sources */,
-				4AE682242B5634C500B67E77 /* Item.swift in Sources */,
+				4AFD20DF2B5708A100539F5B /* Inspection.swift in Sources */,
+				4AFD20DD2B57087100539F5B /* Infraction.swift in Sources */,
+				4AFD20DB2B57083600539F5B /* Coords.swift in Sources */,
+				4AFD20E12B570D4D00539F5B /* Location.swift in Sources */,
 				4AE682202B5634C500B67E77 /* dinesmartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
